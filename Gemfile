@@ -49,3 +49,8 @@ group :test do
 end
 
 gem "active_model_serializers", "~> 0.10.12"
+
+gem 'devise'
+gem 'omniauth'
+gem 'omniauth-google-oauth2'
+gem "omniauth-rails_csrf_protection", "~> 1.0"
