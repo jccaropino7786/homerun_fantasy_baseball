@@ -6,12 +6,14 @@ import Home from './components/Home';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <NavBar/>
-      <Routes>
-        <Route path='/' element={<Home/>} />
-      </Routes>
-    </div>
+      <div className="App">
+        <Routes>
+          <Route path='/' element={<Home/>} />
+        </Routes>
+      </div>
+    </div> 
   );
 }
 
