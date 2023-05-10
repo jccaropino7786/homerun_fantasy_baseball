@@ -1,10 +1,10 @@
-//Setting up Redux
+// //Setting up Redux
 
-import { configureStore } from "@reduxjs/toolkit"
-import  userReducer  from "./user"
+// import { configureStore } from "@reduxjs/toolkit"
+// import  userReducer  from "./user"
 
-export default configureStore({
-    reducer: {
-        user: userReducer
-    }
-})
+// export default configureStore({
+//     reducer: {
+//         user: userReducer
+//     }
+// })
