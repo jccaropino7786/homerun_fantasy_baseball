@@ -6,6 +6,7 @@ function NavBar(){
             <ul class = "nav">
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/players">Players</Link></li>
+                <li><Link to="/reduxEx">Redux Example</Link></li>
                 <li>My Team</li>
                 <li>Log in/ Log out</li>
                 <li>Standings</li>
